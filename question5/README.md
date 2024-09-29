@@ -1,0 +1,1 @@
+Write a recursive function to calculate the sum of the first n natural numbers (1, 2, 3, ..., n). Define a function sumRecursive(int n, int result) where n is the current number to add, and result keeps the cumulative sum. Also, trace the recursion calls using Stack. (20 Marks)
