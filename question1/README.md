@@ -1,0 +1,41 @@
+## Question 1: Package and Class Creation
+- Create two packages:
+    - package1 and package2
+- In package1, create two classes:
+    - Person
+        - Properties:
+            - Private variable for Person’s name (instance variable)
+            - Private variable for Person’s age (instance variable)
+        - Constructors:
+            - Default constructor: Initializes name as "Unknown" and age as 0.
+            - Parameterized constructor: Takes name and age as parameters.
+        - Methods:
+            - void displayInfo(): This method should print the person's name and age.
+
+    - Employee
+        - properties:
+            - private variable for Employee’s name (instance variable)
+            - private variable for Employee’s age (instance variable)
+            - private variable for Employee’s designation (instance variable)
+        - Constructors:
+            - Default constructor: Initializes name as "Unknown", age as 0, and designation as "assigned".
+            - Parameterized constructor: Takes name, age, and designation as parameters.
+        - Methods:
+            - void displayEmployeeInfo():This method should print the employee's name, age, and designation.
+- In package2, create a class:
+    - Company
+        - Properties:
+            - Static variable companyName = “Systems Limited”
+            - Private variable employeeCount (instance variable)
+            - Constructors:
+            - Default constructor: Initializes employeeCount to 0.
+            - Parameterized constructor: Takes the number of employees and assigns it to employeeCount.
+        - Methods:
+            - void displayCompanyInfo(): This method should print the company name and employee count.
+- Create a Main class in package2:
+    - Inside the main method:
+        - Create a Person object using both the default and parameterized constructors and display their information.
+        - Create an Employee object using both the default and parameterized constructors and display their information.
+        - Print the company name using the static variable from Company.
+        - Create a Company object and display its information.
+
